@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "industrial-design",
+  "title": "Транспорт и техника · дизайн-скетч",
+  "description": "Точная перспектива, логика конструкции и читаемые материалы.",
+  "medium": "pencil-and-gray-marker",
+  "prompt": "Develop the existing design into a professional industrial-design sketch in pencil and neutral gray marker. Preserve the object's silhouette, function, proportions and viewpoint. Resolve perspective, ellipses, surface continuity and the relationship of major components. Use fine construction lines, confident outer contours, restrained marker planes and selective white highlights to communicate form and material. Keep reflections schematic and purposeful. Suggest credible joints and panel boundaries only where the input calls for them, without redesigning the subject. Avoid glossy photorealistic rendering, gratuitous futuristic ornament, extra views, dimension labels and presentation-board decorations.",
+  "reference_artists": [{"name": "Syd Mead", "context": "Промышленный дизайн и визуальные концепты для кино", "source_url": "https://www.sydmead.com/biography"}]
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "dynamic-comic",
+  "title": "Динамичный комикс · карандаш",
+  "description": "Энергичная пластика, ясная конструкция и сильные силуэты.",
+  "medium": "graphite",
+  "prompt": "Refine the source into confident professional comic-book pencils. Strengthen the existing action through clear masses, muscular structural drawing where relevant, rhythmic contours and decisive angular planes. Correct foreshortening within the supplied pose and camera rather than changing them. Separate foreground and background through line weight and simplify shadows into readable graphic shapes. Use controlled graphite hatching and a few construction lines; retain the texture of real pencil on paper. Do not add superhero costumes, exaggerated anatomy, impact bursts, speech balloons or panels not present in the sketch. Maintain the original subject and intent.",
+  "reference_artists": [{"name": "Jack Kirby", "context": "Карандашная конструкция и динамика комиксов", "source_url": "https://kirbymuseum.org/blog/2017/01/02/pencils-and-inks/"}]
+}

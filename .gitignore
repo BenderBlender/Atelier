@@ -1,0 +1,47 @@
+# Environments, caches and generated binaries
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Personal artwork, settings, conversations and source research
+/data/
+/_Works/
+/Perspectiva/
+/...*/
+/research/
+/qa/
+/Start Chelsea.vbs
+/Start Escher.vbs
+*.atelier
+*.lnk
+
+# Optional third-party runtimes are installed separately
+/runtime/*
+!/runtime/README.md
+*.exe
+*.dll
+*.pyd
+*.zip
+*.tar.gz
+
+# Credentials and local tooling
+.env
+.env.*
+!.env.example
+/.codex/
+/.agents/
+/.aws/
+/.publish-check/
+*.pem
+*.key
+*.log
+*.tmp
+Thumbs.db
+.DS_Store

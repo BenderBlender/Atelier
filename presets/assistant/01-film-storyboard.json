@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "film-storyboard",
+  "title": "Кинораскадровка · карандаш",
+  "description": "Ясный кадр, выразительное действие и три группы тона.",
+  "medium": "graphite",
+  "prompt": "Refine the supplied sketch as a production-quality graphite storyboard frame. Preserve the exact camera, staging, subject count, poses and screen direction. Clarify silhouettes, gesture, perspective and focal hierarchy with economical, decisive pencil lines. Use three broad value groups, restrained directional hatching and soft graphite for depth. Retain a few purposeful construction marks and ample breathing room. Convey lighting and readable action without turning the drawing into a polished photograph. Keep a single frame: do not invent panels, captions, shot numbers or additional scenes.",
+  "reference_artists": [{"name": "Joe Johnston", "context": "Раскадровки и концепты оригинальной трилогии Star Wars", "source_url": "https://www.abramsbooks.com/product/star-wars-storyboards_9781419707742/"}]
+}

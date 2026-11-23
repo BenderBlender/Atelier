@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "noir-ink",
+  "title": "Нуар · лаконичная тушь",
+  "description": "Сильные чёрные пятна, свет и минимум точных линий.",
+  "medium": "black-ink",
+  "prompt": "Transform the supplied sketch into sophisticated, economical black-and-white ink art. Preserve the subject, pose, camera and arrangement while refining construction. Use strong silhouette design, deliberate pools of black, luminous negative space and a minimum of exact contour marks. Let edges disappear naturally into shared shadow, keeping the focal forms immediately readable. Use clean tapered strokes and very selective texture instead of filling every surface with hatching. Keep the light direction consistent with the source. Convey atmosphere through value design, not added narrative props. Do not introduce weapons, crime motifs, lettering, panels or unrelated scenery.",
+  "reference_artists": [{"name": "Alex Toth", "context": "Лаконичная графика для комиксов и анимации", "source_url": "https://idwpublishing.com/products/genius-illustrated-the-life-and-art-of-alex-toth"}]
+}

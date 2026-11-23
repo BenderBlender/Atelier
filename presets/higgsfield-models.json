@@ -1,0 +1,861 @@
+{
+  "fetched": "2026-11-15",
+  "source": "Higgsfield MCP model discovery + official CLI model get, authenticated verification",
+  "items": [
+    {
+      "id": "seedream_5_5",
+      "name": "Seedream 5.5",
+      "provider_name": "Bytedance",
+      "description": "Image generation and editing with PNG output and optional transparent background",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "background",
+          "type": "string",
+          "default": "auto",
+          "options": [
+            "auto",
+            "transparent",
+            "opaque"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "2k",
+          "options": [
+            "1k",
+            "1.5k",
+            "2k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images for generation or editing. At most 10. (array, max 10)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "tags": [
+        "editing",
+        "instruction",
+        "2k",
+        "transparent"
+      ],
+      "cli_id": "seedream_5_5"
+    },
+    {
+      "id": "seedream_v5_pro",
+      "name": "Seedream 5.0 Pro",
+      "provider_name": "Bytedance",
+      "description": "Pro-tier visual reasoning, instruction-based editing, up to 2K",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "2k",
+          "options": [
+            "1k",
+            "1.5k",
+            "2k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images to guide the generation (style, composition, subject). At most 10. (array)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "tags": [
+        "editing",
+        "instruction",
+        "reasoning",
+        "pro",
+        "2k",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "seedream_v5_pro"
+    },
+    {
+      "id": "seedream_5_0_flash",
+      "name": "Seedream 5.0 Flash",
+      "provider_name": "Bytedance",
+      "description": "Fast image generation and instruction-based editing, up to 2K",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "2k",
+          "options": [
+            "1k",
+            "1.5k",
+            "2k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images for generation or editing. At most 10. (array, max 10)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "tags": [
+        "editing",
+        "instruction",
+        "flash",
+        "2k"
+      ],
+      "cli_id": "seedream_5_0_flash"
+    },
+    {
+      "id": "gpt_image_2_6",
+      "name": "GPT Image 2.6",
+      "provider_name": "OpenAI",
+      "description": "GPT Image 2.6 Sunburst image generation and editing, GIF and SVG output",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "background",
+          "type": "string|null",
+          "default": null,
+          "options": [
+            "auto",
+            "opaque",
+            "transparent"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "output_format",
+          "type": "string",
+          "default": "png",
+          "options": [
+            "png",
+            "jpeg",
+            "webp",
+            "gif",
+            "svg"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "quality",
+          "type": "string",
+          "default": "low",
+          "options": [
+            "auto",
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images for generation or editing. Not supported for SVG. (array, max 16)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "21:9",
+        "27:16",
+        "16:27",
+        "9:8",
+        "8:9",
+        "4:5",
+        "5:4"
+      ],
+      "tags": [
+        "image-generation",
+        "editing",
+        "reference-images",
+        "4k",
+        "text-rendering",
+        "vector",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "gpt_image_2_6"
+    },
+    {
+      "id": "gpt_image_2_5",
+      "name": "GPT Image 2.5",
+      "provider_name": "OpenAI",
+      "description": "GPT Image 2.5 generation and editing with Flare and Sunburst variants",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "background",
+          "type": "string|null",
+          "default": null,
+          "options": [
+            "auto",
+            "opaque",
+            "transparent"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "quality",
+          "type": "string",
+          "default": "low",
+          "options": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "variant",
+          "type": "string",
+          "default": "flare",
+          "options": [
+            "flare",
+            "sunburst"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images to guide generation or editing (max 16). (array, max 16)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "21:9",
+        "27:16",
+        "16:27",
+        "9:8",
+        "8:9",
+        "4:5",
+        "5:4"
+      ],
+      "tags": [
+        "image-generation",
+        "editing",
+        "reference-images",
+        "4k",
+        "text-rendering",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "gpt_image_2_5"
+    },
+    {
+      "id": "gpt_image_2",
+      "name": "GPT Image 2",
+      "provider_name": "OpenAI",
+      "description": "Next-gen GPT Image model with 1k/2k/4k resolution and low/medium/high quality tiers",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "background",
+          "type": "string|null",
+          "default": null,
+          "options": [
+            "auto",
+            "opaque",
+            "transparent"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "quality",
+          "type": "string",
+          "default": "high",
+          "options": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "2k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image"
+          ]
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "21:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4"
+      ],
+      "tags": [
+        "text-rendering",
+        "editing",
+        "typography",
+        "photorealistic",
+        "4k",
+        "high-resolution",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "gpt_image_2"
+    },
+    {
+      "id": "nano_banana_2_1",
+      "name": "Nano Banana 2.1",
+      "provider_name": "Google",
+      "description": "Nano Banana 2.1 image generation with image and video references",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "thinking_level",
+          "type": "string",
+          "default": "medium",
+          "options": [
+            "minimal",
+            "medium",
+            "high"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references",
+            "mask",
+            "video_references"
+          ],
+          "description": "Media roles: image_references — Reference images for image generation or editing. (array, max 14) | mask — Full-frame mask for regional image editing. | video_references — One reference video for image generation. (array, max 1)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9",
+        "4:1",
+        "1:4",
+        "8:1",
+        "1:8"
+      ],
+      "tags": [
+        "fast",
+        "high-quality",
+        "photorealistic",
+        "versatile",
+        "4k",
+        "text-to-image",
+        "image-to-image",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "nano_banana_2_1"
+    },
+    {
+      "id": "nano_banana_2",
+      "name": "Nano Banana 2",
+      "provider_name": "Google",
+      "description": "Fast, next-gen high-quality images",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references",
+            "mask"
+          ],
+          "description": "Media roles: image_references — Reference images for image-to-image generation. (array) | mask — Full-frame mask for regional image editing."
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "tags": [
+        "fast",
+        "high-quality",
+        "photorealistic",
+        "versatile",
+        "4k",
+        "text-to-image",
+        "image-to-image",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "nano_banana_flash"
+    },
+    {
+      "id": "nano_banana_pro",
+      "name": "Nano Banana Pro",
+      "provider_name": "Google",
+      "description": "Ultimate quality, text and diagrams",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "2k",
+          "options": [
+            "1k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images (style, composition, or subject anchor). At most 14. (array)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "tags": [
+        "quality",
+        "text-rendering",
+        "diagrams",
+        "photorealistic",
+        "versatile",
+        "4k",
+        "text-to-image",
+        "image-to-image",
+        "unlim"
+      ],
+      "supports_unlim": true,
+      "cli_id": "nano_banana_pro"
+    },
+    {
+      "id": "flux_3_image",
+      "name": "FLUX 3 Image",
+      "provider_name": "Black Forest Labs",
+      "description": "FLUX 3 image generation and editing with up to ten reference images",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "768sq",
+            "1k",
+            "1.5k",
+            "2k",
+            "4k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Up to ten reference images, in order, for editing or guided generation. (array, max 10)"
+        }
+      ],
+      "aspect_ratios": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "3:2",
+        "7:5",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "5:7",
+        "2:3",
+        "9:16",
+        "1:2"
+      ],
+      "tags": [
+        "text-to-image",
+        "image-to-image",
+        "editing",
+        "multi-reference",
+        "4k"
+      ],
+      "cli_id": "flux_3_image"
+    },
+    {
+      "id": "flux_2",
+      "name": "FLUX.2",
+      "provider_name": "Black Forest Labs",
+      "description": "Multiple model variants (pro, flex, max), precise prompt adherence",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "variant",
+          "type": "string",
+          "default": "pro",
+          "options": [
+            "pro",
+            "flex",
+            "max"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images (style, composition, subject). (array)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "tags": [
+        "precise",
+        "prompt-adherence",
+        "creative",
+        "versatile",
+        "pro",
+        "quality"
+      ],
+      "cli_id": "flux_2"
+    },
+    {
+      "id": "flux_kontext",
+      "name": "Flux Kontext",
+      "provider_name": "Black Forest Labs",
+      "description": "Context-aware editing and style transfer",
+      "output_type": "image",
+      "parameters": [],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images to edit (at most 4). (array)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "tags": [
+        "editing",
+        "style-transfer",
+        "context-aware",
+        "typography",
+        "remix"
+      ],
+      "cli_id": "flux_kontext"
+    },
+    {
+      "id": "seedream_v4_5",
+      "name": "Seedream 4.5",
+      "provider_name": "Bytedance",
+      "description": "4K output, precise control, transformations",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "quality",
+          "type": "string",
+          "default": "basic",
+          "options": [
+            "basic",
+            "high"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images for editing, transformation, or control (at most 14). (array)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "4:3",
+        "16:9",
+        "3:2",
+        "21:9",
+        "3:4",
+        "9:16",
+        "2:3"
+      ],
+      "tags": [
+        "4k",
+        "high-resolution",
+        "precise",
+        "transformations",
+        "editing",
+        "control"
+      ],
+      "cli_id": "seedream_v4_5"
+    },
+    {
+      "id": "grok_image_2_0",
+      "name": "Grok Image 2.0",
+      "provider_name": "xAI",
+      "description": "Next-generation image creation and editing from xAI",
+      "output_type": "image",
+      "parameters": [
+        {
+          "name": "quality",
+          "type": "string",
+          "default": "medium",
+          "options": [
+            "low",
+            "medium"
+          ],
+          "required": "optional"
+        },
+        {
+          "name": "resolution",
+          "type": "string",
+          "default": "1k",
+          "options": [
+            "1k",
+            "2k"
+          ],
+          "required": "optional"
+        }
+      ],
+      "medias": [
+        {
+          "name": "medias",
+          "type": "image",
+          "roles": [
+            "image_references"
+          ],
+          "description": "Media roles: image_references — Reference images to guide the generation or edit. (array, max 3)"
+        }
+      ],
+      "aspect_ratios": [
+        "1:1",
+        "auto",
+        "1:2",
+        "2:1",
+        "3:2",
+        "2:3",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "tags": [
+        "expressive",
+        "high-contrast",
+        "editing",
+        "creative",
+        "bold"
+      ],
+      "cli_id": "grok_image_2_0"
+    }
+  ]
+}

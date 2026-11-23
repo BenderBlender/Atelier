@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "production-design",
+  "title": "Декорации и предметы · конструкция",
+  "description": "Убедительный предметный мир и практичная деталировка.",
+  "medium": "graphite-and-ink",
+  "prompt": "Refine this sketch as a professional film production-design drawing. Keep the scene and design recognizable, with the same framing, arrangement and scale. Clarify perspective, load-bearing forms, assembly logic and material transitions. Use economical pencil construction, selective ink accents and restrained tonal shading to make the object or set feel buildable and inhabited. Detail only what supports function and the existing visual story; simplify the rest. Preserve handmade exploratory character and a clear focal hierarchy. Do not invent machinery for an organic subject or add technical labels, dimensions, alternate views, decorative frames or new narrative elements.",
+  "reference_artists": [{"name": "Ron Cobb", "context": "Конструктивные концепты предметов и декораций для кино", "source_url": "https://roncobb.net/film.html"}]
+}

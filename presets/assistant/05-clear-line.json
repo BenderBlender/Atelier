@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "clear-line",
+  "title": "Чистая линия · авторский комикс",
+  "description": "Воздушный рисунок, точные контуры и деликатные детали.",
+  "medium": "fineliner",
+  "prompt": "Reinterpret the existing sketch as an elegant monochrome clear-line comics drawing. Retain the scene, framing, object count and spatial relationships. Resolve perspective and organic forms through delicate, continuous, highly intentional contours. Favor open white areas, subtle line-weight changes, sparse fine hatching and small clusters of precise material detail. Give the composition a spacious, lucid rhythm without making it sterile or mechanically traced. Keep tonal masses restrained and detail subordinate to the primary silhouettes. Do not replace the source with a science-fiction landscape or invent costumes, machinery or scenery unless already indicated.",
+  "reference_artists": [{"name": "Moebius / Jean Giraud", "context": "Авторская графика и комиксы; ясная линия и пространство", "source_url": "https://www.moebius.fr/"}]
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "cinematic-light",
+  "title": "Кино-концепт · свет и пространство",
+  "description": "Тональный скетч с глубиной, атмосферой и ясным освещением.",
+  "medium": "graphite-and-tonal-wash",
+  "prompt": "Elevate the supplied composition into a professional cinematic tonal concept sketch. Preserve the camera, architecture, figures and relative scale. Establish a coherent light source and a strong focal value contrast. Describe depth through overlapping planes, atmospheric separation and diminishing detail. Use broad graphite or restrained monochrome wash for large value groups, then articulate selected edges with fine pencil. Keep silhouettes and spatial construction exceptionally clear. Suggest materials economically and leave room for the drawing to breathe. Remain a monochrome sketch, not a finished color painting. Do not invent spacecraft, landmarks or additional characters.",
+  "reference_artists": [{"name": "Ralph McQuarrie", "context": "Кинематографический свет, силуэты и пространство в концептах Star Wars", "source_url": "https://www.starwars.com/news/how-to-spot-a-ralph-mcquarrie"}]
+}

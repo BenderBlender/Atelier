@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "pen-hatching",
+  "title": "Перо и тушь · тонкая штриховка",
+  "description": "Тонкое перо, строгая штриховка и тактильные материалы.",
+  "medium": "pen-and-ink",
+  "prompt": "Translate the input composition into accomplished black pen-and-ink illustration. Preserve subjects, expression, camera and proportions while resolving uncertain construction. Build volume with disciplined contour-following hatching and carefully spaced crosshatching. Vary line density instead of adding gray digital washes. Distinguish the materials already present through appropriate mark direction and scale. Balance richly worked focal passages with clean paper and simpler peripheral contours. Keep silhouette and light source readable even at thumbnail size. Use fine nib lines and a few controlled solid blacks. Do not introduce horror, monsters or decorative objects absent from the source.",
+  "reference_artists": [{"name": "Bernie Wrightson", "context": "Перо и тушь, Frankenstein, комиксы и работа для кино", "source_url": "https://www.berniewrightson.com/biography/"}]
+}

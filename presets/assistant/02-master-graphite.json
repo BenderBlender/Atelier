@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "master-graphite",
+  "title": "Мастерский графитовый скетч",
+  "description": "Живой контур, убедительная форма и мягкая боковая штриховка.",
+  "medium": "graphite",
+  "prompt": "Develop the supplied drawing into a masterful observational graphite sketch. Preserve its composition and subject identity. Improve anatomical construction where applicable, weight, balance and the flow of the existing gesture. Alternate fine sharpened-pencil accents with broad, soft side-of-graphite shading. Let line weight respond to contact, occlusion and light; use selective contour breaks and directional hatching to describe planes. Keep paper visible in highlights, reserve the darkest accents for the focal point, and allow peripheral edges to remain lightly suggested. The result should feel hand-drawn, confident and exploratory, not over-smoothed or photorealistic.",
+  "reference_artists": [{"name": "Frank Frazetta", "context": "Карандашные рисунки и графические исследования автора комиксов и киноафиш", "source_url": "https://www.frazettagirls.com/pages/frazetta-pencils-gallery"}]
+}

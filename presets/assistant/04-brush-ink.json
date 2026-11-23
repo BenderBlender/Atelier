@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "brush-ink",
+  "title": "Кисть и тушь · живая графика",
+  "description": "Упругий мазок, перепады толщины и выразительные чёрные пятна.",
+  "medium": "brush-and-ink",
+  "prompt": "Redraw the source as expressive professional brush-and-ink graphic art. Keep the original composition, gesture and narrative intact. Use supple tapered brush strokes with purposeful thick-to-thin transitions, lively contour rhythm and occasional dry-brush texture. Organize shadows into clear interconnected black shapes, letting untouched paper supply the light. Simplify minor detail to strengthen the focal action and atmosphere. Preserve believable construction beneath the expressive marks. Avoid uniform vector outlines, mechanical hatching, plastic gradients and gratuitous splatter. Do not add lettering, panels or a new story.",
+  "reference_artists": [{"name": "Will Eisner", "context": "Выразительная кистевая тушь в повествовательной графике", "source_url": "https://www.jwrinzler.com/an-interview-with-will-eisner.html"}]
+}
